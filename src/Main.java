@@ -5,6 +5,6 @@ public class Main
     public static void main(String[] args)
     {
         RaceGame game = new RaceGame();
-        game.start(); //TODO: implement later
+        game.start();
     }
 }

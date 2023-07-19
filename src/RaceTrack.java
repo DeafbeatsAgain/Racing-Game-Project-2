@@ -11,14 +11,9 @@ public class RaceTrack {
         this.danger = danger;
         this.trackName = trackName;
     }
-
+    //Getters: these are used to access the data held in the RaceTrack objects
     public int getLaps() {return laps;}
-
     public double getDifficulty() {return difficulty;}
-
     public double getDanger() {return danger;}
-    // one of these two below gotta go
-    public String getTrackName() {
-        return trackName;
-    }
+    public String getTrackName() {return trackName;}
 }
